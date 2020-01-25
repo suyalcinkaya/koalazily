@@ -1,0 +1,39 @@
+{
+  "name": "koalazily",
+  "version": "1.0.0",
+  "description": "Modern lazy image loading using Intersection Observer API",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/suyalcinkaya/koalazily",
+    "type": "git"
+  },
+  "homepage": "https://github.com/suyalcinkaya/koalazily",
+  "bugs": "https://github.com/suyalcinkaya/koalazily",
+  "source": "src/index.js",
+  "main": "dist/koalazily.js",
+  "umd:main": "dist/koalazily.umd.js",
+  "module": "dist/koalazily.m.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle",
+    "lint": "standard --fix src"
+  },
+  "author": "Onur Şuyalçınkaya",
+  "babel": {
+    "presets": [
+      [
+        "env"
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "intersection-observer": "^0.7.0",
+    "jest": "^25.1.0",
+    "microbundle": "^0.11.0",
+    "standard": "^14.3.1"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>koalazily - example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      img {
+        margin-bottom: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/1" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/2" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/3" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/4" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/5" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/6" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/7" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/8" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/9" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/10" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/12" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/13" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/14" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/15" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/16" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/17" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/18" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/19" width="300" height="200" alt="" />
+      <img data-koalazily="https://source.unsplash.com/300x200/?house/20" width="300" height="200" alt="" />
+    </div>
+    <script src="../dist/koalazily.umd.js"></script> 
+    <script>
+      koalazily({
+        offset: 100,
+        onLoad: function(image) {
+          alert(image.src + " loaded.");
+        },
+        useLoader: true,
+      });
+    </script>
+  </body>
+</html>
