@@ -8,14 +8,13 @@
   <strong>Loading images lazily in a modern way using Intersection Observer API</strong>
 </div>
 <br>
-<div align="center">
-  ![npm](https://img.shields.io/npm/v/koalazily)
-  ![npm](https://img.shields.io/npm/dw/koalazily)
-  ![Travis (.org)](https://img.shields.io/travis/suyalcinkaya/koalazily)
-  ![NPM](https://img.shields.io/npm/l/koalazily)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  [![Greenkeeper badge](https://badges.greenkeeper.io/suyalcinkaya/koalazily.svg)](https://greenkeeper.io/)
-</div>
+
+![npm](https://img.shields.io/npm/v/koalazily)
+![npm](https://img.shields.io/npm/dt/koalazily)
+![Travis (.org)](https://img.shields.io/travis/suyalcinkaya/koalazily)
+![NPM](https://img.shields.io/npm/l/koalazily)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Greenkeeper badge](https://badges.greenkeeper.io/suyalcinkaya/koalazily.svg)](https://greenkeeper.io/)
 
 ## Install
 
@@ -40,9 +39,24 @@ Or with CDN:
 Add the `data-koalazily` tag to images you wish to load lazyly:
 
 ```html
-  <img data-koalazily="https://source.unsplash.com/300x200/?house/1" width="300" height="200" alt="" />
-  <img data-koalazily="https://source.unsplash.com/300x200/?house/2" width="300" height="200" alt="" />
-  <img data-koalazily="https://source.unsplash.com/300x200/?house/3" width="300" height="200" alt="" />
+<img
+  data-koalazily="https://source.unsplash.com/300x200/?house/1"
+  width="300"
+  height="200"
+  alt=""
+/>
+<img
+  data-koalazily="https://source.unsplash.com/300x200/?house/2"
+  width="300"
+  height="200"
+  alt=""
+/>
+<img
+  data-koalazily="https://source.unsplash.com/300x200/?house/3"
+  width="300"
+  height="200"
+  alt=""
+/>
 ```
 
 Then initialize:
