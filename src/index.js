@@ -14,7 +14,7 @@ function koalazily({ offset = 100, threshold = 0.01, area, onLoad, useLoader = f
 
     if (width && height) {
       image.src = Boolean(useLoader)
-        ? `data:image/svg+xml,%3Csvg id='koalazily-loader' width='300px' height='200px' viewBox='0 0 300 200' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E @keyframes koalazily-pulse %7B 0%25 %7Bbackground-position: 0%25 0%25; %7D 100%25 %7Bbackground-position: -135%25 0%25; %7D%0A%7D%0Asvg%23koalazily-loader %7B background: linear-gradient(-90deg, %23e0e0e0 0%25, %23f0f0f0 50%25, %23e0e0e0 100%25); background-size: 400%25 400%25; animation: koalazily-pulse 1.2s ease-in-out infinite;%0A%7D %3C/style%3E%3C/svg%3E`
+        ? `data:image/svg+xml,%3Csvg id='koalazily-loader' width='${width}px' height='${height}px' viewBox='0 0 ${width} ${height}' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E @keyframes koalazily-pulse %7B 0%25 %7Bbackground-position: 0%25 0%25; %7D 100%25 %7Bbackground-position: -135%25 0%25; %7D%0A%7D%0Asvg%23koalazily-loader %7B background: linear-gradient(-90deg, %23e0e0e0 0%25, %23f0f0f0 50%25, %23e0e0e0 100%25); background-size: 400%25 400%25; animation: koalazily-pulse 1.2s ease-in-out infinite;%0A%7D %3C/style%3E%3C/svg%3E`
         : `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}"%3E%3C/svg%3E`
     }
   });
