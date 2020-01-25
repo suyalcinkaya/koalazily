@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="60%" src="https://media.giphy.com/media/GiwTarPTh3tG8/giphy.gif" alt=""/>
+  <img width="80%" src="https://media.giphy.com/media/b6c0GsP1WLd4c/source.gif" alt=""/>
 </div>
 <h1 align="center">
   koala + lazy + kolay (means "easy" in Turkish) = koalazily 🐨
