@@ -32,6 +32,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/suyalcinkaya/koalazily.svg)](https://greenkeeper.io/)
+
 With package manager:
 
 ```sh
