@@ -36,7 +36,7 @@ Or with CDN:
 
 ## Usage
 
-Add the `data-koalazily` tag to images you wish to load lazyly:
+Add the `data-koalazily` tag to images you wish to load lazily:
 
 ```html
 <img
