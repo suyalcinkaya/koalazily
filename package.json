@@ -32,7 +32,7 @@
   "devDependencies": {
     "babel-preset-env": "1.7.0",
     "intersection-observer": "0.7.0",
-    "jest": "25.1.0",
+    "jest": "26.6.3",
     "microbundle": "0.11.0",
     "standard": "15.0.1"
   }
